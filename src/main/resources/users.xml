@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="17.0.1" class="java.beans.XMLDecoder">
+ <object class="by.unfforu.client.entity.user.User">
+  <void property="id">
+   <int>1</int>
+  </void>
+  <void property="login">
+   <string>testAdmin</string>
+  </void>
+  <void property="password">
+   <string>testAdmin</string>
+  </void>
+  <void property="role">
+   <object class="java.lang.Enum" method="valueOf">
+    <class>by.unfforu.client.entity.role.UserRole</class>
+    <string>ADMIN</string>
+   </object>
+  </void>
+ </object>
+ <object class="by.unfforu.client.entity.user.User">
+  <void property="id">
+   <int>2</int>
+  </void>
+  <void property="login">
+   <string>testUser</string>
+  </void>
+  <void property="password">
+   <string>testUser</string>
+  </void>
+  <void property="role">
+   <object class="java.lang.Enum" method="valueOf">
+    <class>by.unfforu.client.entity.role.UserRole</class>
+    <string>USER</string>
+   </object>
+  </void>
+ </object>
+</java>

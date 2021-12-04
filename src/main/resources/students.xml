@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="17.0.1" class="java.beans.XMLDecoder">
+ <object class="by.unfforu.client.entity.student.Student">
+  <void property="birthday">
+   <object class="java.time.LocalDate" method="parse">
+    <string>2002-06-11</string>
+   </object>
+  </void>
+  <void property="characteristic">
+   <string>BSUIR student</string>
+  </void>
+  <void property="id">
+   <int>1</int>
+  </void>
+  <void property="lastModification">
+   <object class="java.time.LocalDateTime" method="parse">
+    <string>2021-11-21T21:30:38.389933400</string>
+   </object>
+  </void>
+  <void property="name">
+   <string>Maksim</string>
+  </void>
+ </object>
+</java>
